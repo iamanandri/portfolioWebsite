@@ -1,6 +1,39 @@
 body{
-    background-color: #F7F7F7;
-    color: #0A0A0A;
+    background-color: #F8F8F8;
+    color: #141414;
     font-family: 'Pixelify Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    width: 100%;
+    background-color: #154574;
+    color: #F4F4F4;
+    height: 83px;
+    display:flex;
+    align-items: center;
+    
+}
+
+#navbar ul{
+    
+    list-style: none;
+    margin: 0;
+    
+}
+
+#navbar li{
+    display: inline-block;
+    
+    text-decoration: none;
+    
+}
+
+.hero{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
